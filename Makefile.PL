@@ -6,8 +6,9 @@ WriteMakefile
           'VERSION_FROM' => 'lib/Catalyst/Action/Fixup/XHTML.pm',
           'PREREQ_PM' => {
                            'Catalyst::Runtime' => '0',
-                           'HTTP::Negotiate' => '0',
+                           'Catalyst::View::ContentNegotiation::XHTML' => '1.100',
                            'MRO::Compat' => '0',
+                           'Moose' => '0',
                            'Test::More' => '0'
                          },
           'INSTALLDIRS' => 'site',
